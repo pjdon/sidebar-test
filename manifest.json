@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "Sidebar Test",
+  "version": "0.1",
+
+  "icons": {
+    "32": "icon-32.png"
+  },
+
+  "browser_action": {
+    "default_icon": "icon-32.png",
+    "default_title": "Open Sidebar"
+  },
+
+  "sidebar_action": {
+    "default_icon": {
+      "32": "icon-32.png"
+    },
+    "default_title": "My sidebar",
+    "default_panel": "sidebar.html"
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
