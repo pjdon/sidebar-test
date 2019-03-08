@@ -17,10 +17,21 @@
       "32": "icon-32.png"
     },
     "default_title": "My sidebar",
-    "default_panel": "sidebar.html"
+    "default_panel": "sidebar.html",
+    "open_at_install": false
   },
 
   "background": {
     "scripts": ["background.js"]
+  },
+
+  "commands": {
+    "toggle-feature": {
+        "suggested_key": {
+          "default": "Ctrl+Shift+Y"
+      },
+      "description": "Send a 'toggle-feature' event"
+    }
   }
+
 }
