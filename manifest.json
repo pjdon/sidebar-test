@@ -3,6 +3,8 @@
   "name": "Sidebar Test",
   "version": "0.1",
 
+  "description": "Test Sidebar Toggling",
+
   "icons": {
     "32": "icon-32.png"
   },
@@ -23,15 +25,6 @@
 
   "background": {
     "scripts": ["background.js"]
-  },
-
-  "commands": {
-    "toggle-feature": {
-        "suggested_key": {
-          "default": "Ctrl+Shift+Y"
-      },
-      "description": "Send a 'toggle-feature' event"
-    }
   }
 
 }
